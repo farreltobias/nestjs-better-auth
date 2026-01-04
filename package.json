@@ -1,6 +1,6 @@
 {
 	"name": "@farreltobias/nestjs-better-auth",
-	"version": "2.2.1",
+	"version": "2.2.2",
 	"description": "Better Auth for NestJS",
 	"keywords": [
 		"nestjs",
