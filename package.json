@@ -8,13 +8,13 @@
 		"auth",
 		"nestjs-better-auth"
 	],
-	"homepage": "https://github.com/thallesp/nestjs-better-auth#readme",
+	"homepage": "https://github.com/farreltobias/nestjs-better-auth#readme",
 	"bugs": {
-		"url": "https://github.com/thallesp/nestjs-better-auth/issues"
+		"url": "https://github.com/farreltobias/nestjs-better-auth/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/thallesp/nestjs-better-auth.git"
+		"url": "git+https://github.com/farreltobias/nestjs-better-auth.git"
 	},
 	"license": "MIT",
 	"author": "Thalles Passos",
