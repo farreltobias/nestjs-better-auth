@@ -1,17 +1,38 @@
 {
-	"name": "@thallesp/nestjs-better-auth",
+	"name": "@farreltobias/nestjs-better-auth",
 	"version": "2.2.0",
 	"description": "Better Auth for NestJS",
-	"author": "Thalles Passos",
-	"license": "MIT",
-	"repository": "https://github.com/thallesp/nestjs-better-auth",
 	"keywords": [
 		"nestjs",
 		"better-auth",
 		"auth",
 		"nestjs-better-auth"
 	],
+	"homepage": "https://github.com/thallesp/nestjs-better-auth#readme",
+	"bugs": {
+		"url": "https://github.com/thallesp/nestjs-better-auth/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/thallesp/nestjs-better-auth.git"
+	},
+	"license": "MIT",
+	"author": "Thalles Passos",
 	"type": "module",
+	"exports": {
+		".": {
+			"import": "./dist/index.mjs",
+			"require": "./dist/index.cjs"
+		}
+	},
+	"main": "./dist/index.cjs",
+	"types": "dist/index.d.ts",
+	"directories": {
+		"test": "tests"
+	},
+	"files": [
+		"dist"
+	],
 	"scripts": {
 		"build": "unbuild",
 		"prepack": "bun run unbuild",
@@ -20,17 +41,6 @@
 		"check": "biome check",
 		"test": "vitest"
 	},
-	"types": "dist/index.d.ts",
-	"main": "./dist/index.cjs",
-	"exports": {
-		".": {
-			"import": "./dist/index.mjs",
-			"require": "./dist/index.cjs"
-		}
-	},
-	"files": [
-		"dist"
-	],
 	"devDependencies": {
 		"@apollo/server": "^4.12.2",
 		"@as-integrations/express5": "^1.1.2",
